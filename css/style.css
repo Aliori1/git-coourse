@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+.home-page .article{
+    background: yellow;
+
+}
+.product-page .article{
+    background: darkblue;
+
+}
+
+.article{
+    background: red;
+}
+.article--dark{
+    color: white;
+}
+.article__title{
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+}
+.article__description{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.article__square{
+    width: 300px;
+    background: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.article__square--active{
+    background: purple;
+
+}
+
+.article__square-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+    
+}
+
+.info{
+    background: white;
+}
+.info--light{
+    color: black;
+}
+.info__title{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+.info__description{
+    font-size: .8rem;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    width: 400px;
+    text-align: justify;
+    
+}
+
+.info__square{
+    width: 100px;
+    background: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info__square-title{
+    font-size: .7rem;
+    font-weight: 700;
+    line-height: 1.4;
+    
+}
+
+.box{
+    padding: 20px; 
+}
+
+
+
+
+/* @media  (min-width: 768px){
+    .box{
+        width: 100%;
+        background: purple;
+        padding: 10px;
+    }
+} */
+
+/*laptops */
+/* @media (min-width: 1024px){
+    .box{
+        width: 100%;
+        background: blue;
+        padding: 10px;
+    }
+} */
+
+/*desktops  */
+/* @media (min-width: 1920px){
+    .box{
+        width: 100%;
+        background: red;
+        padding: 10px;
+    }
+} */
+
+
+
+/*mobile device*/
